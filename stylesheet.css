@@ -1,0 +1,173 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+
+  }
+  
+
+  
+  * {
+	  box-sizing: border-box;
+  }
+  body {
+	  font-family: 'Montserrat', sans-serif;
+	  line-height: 1.6;
+	  margin: 0;
+	  min-height: 100vh;
+  }
+  ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  
+  h2,
+  h3,
+  a {
+	  color: #f4f4f4;
+  }
+  
+  a {
+	  text-decoration: none;
+  }
+  
+  
+  
+  .logo {
+	  margin: 5;
+	  font-size: 1.45em;
+  }
+  
+  .main-nav {
+	  margin-top: 5px;
+  
+  }
+  .logo a,
+  .main-nav a {
+	  padding: 10px 15px;
+	  text-transform: uppercase;
+	  text-align: center;
+	  display: block;
+  }
+  
+  .main-nav a {
+	  color: #f5f4f4;
+	  font-size: .99em;
+  }
+  
+  
+.main-nav a:hover {
+    transition: color 0.3s ease-in-out;
+}
+
+
+.main-nav li:nth-child(1) a:hover { 
+    color: #FF5733;
+}
+
+.main-nav li:nth-child(2) a:hover { 
+    color: #16b4ac; 
+}
+
+.main-nav li:nth-child(3) a:hover { 
+    color: #3357FF; 
+}
+
+
+
+  
+  .header {
+	  padding-top: .5em;
+	  padding-bottom: .5em;
+	  border: 1px solid #000000;
+	  background-color: #000000;
+	  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	  -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+  }
+
+
+
+body { 
+	font-family: 'Montserrat';
+	font-size: 1.25em;
+	margin: 0;
+	padding: 1rem 0;
+	background-color: black;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+h1 {
+	padding: 0.5rem;
+	font-size: 3rem;
+	margin: 0;
+}
+
+p, img {
+	box-sizing: border-box;
+	padding: 0.5rem;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.box {
+	box-sizing: border-box;
+	color: white;
+	padding: 4rem;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+  
+  
+  
+  
+  /* ================================= 
+	Media Queries
+  ==================================== */
+  
+  
+  
+  
+  @media (min-width: 769px) {
+	  .header,
+	  .main-nav {
+		  display: flex;
+	  }
+	  .header {
+		  flex-direction: column;
+		  align-items: center;
+		  .header{
+		  width: 80%;
+		  margin: 0 auto;
+		  max-width: 1150px;
+	  }
+	  }
+  
+  }
+  
+  @media (min-width: 1025px) {
+	  .header {
+		  flex-direction: row;
+		  justify-content: space-between;
+	  }
+	}
+
+
